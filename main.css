@@ -1,0 +1,107 @@
+.window {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button-main {
+    background-color: #F1CDB3;
+    font-size: 17px;
+    color: #292929;
+    /* text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
+    border-radius: 100px;
+    width: 207px;
+    height: 52px;
+    
+}
+    
+.button-main:hover {
+    background-color: #FDDCC4;
+    color: #292929;
+    transition: 0.6s;
+} 
+
+.button-cards {
+
+}
+
+.about-section {
+    padding: 30px 40px 0 40px;
+    background-image: url(./assets/start-screen-gradient-background.png); 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F1CDB3;
+    font-size: 32px;
+    
+}
+
+.subtitle{
+    color: #fff;
+    font-size: 13px;
+}
+
+.navmenu ul{
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #CDCDCD;
+
+
+}
+
+.navmenu a {
+    text-decoration: none;
+}
+
+.start-screen {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 40px 0 0px;
+}
+
+.content {
+    padding: 163px 42px 243px 0;  
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.house {
+    padding-right: 150px;
+    color: #ffffff;
+   font-size: 44px;   
+   /* line-height: 130%; */
+}
+
+.text-about {
+    color: #CDCDCD;
+    font-size: 15px;
+    line-height: 160%;
+    text-align:justify;
+}
+
+
+
+
